@@ -16,10 +16,10 @@ class Header extends Component {
                     <a href="./">Home</a>
                   </Col>
                   <Col>
-                    <a>About</a>
+                    <a href="#About">About</a>
                   </Col>
                   <Col>
-                    <a>Publications</a>
+                    <a href="#Publications">Publications</a>
                   </Col>
                 </Row>
               </Col>

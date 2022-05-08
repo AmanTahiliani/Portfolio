@@ -5,18 +5,18 @@ import About from "./components/About";
 import Publication from "./components/Publication";
 import publicationData from "./components/publications.json"
 import { getByTitle } from "@testing-library/react";
+import SimpleSlider from "./components/publicationSlider";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <hr></hr>
-      <About className ="About" />
-      <div className="publications">
+      <About className ="About" id="About"/>
+      <div className="publications" id="Publications">
         <h2 style={{color:"salmon", fontSize:"50px"}}><b>Publications</b></h2>
-        {publicationData.map(({title,authors, publish_date, abstract,link}) =>(
-          <Publication title={title} authors={authors} publish_date={publish_date} abstract={abstract} link={link}/>
-        ))}
+        <SimpleSlider/>
+
       </div>
     </div>
   );
