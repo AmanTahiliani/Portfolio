@@ -26,7 +26,7 @@ export default class SimpleSlider extends Component {
       slidesToScroll: 1,
     };
     return (
-      <div>
+      <div style={{height:"auto"}}>
         <Slider ref={c => (this.slider = c)} {...settings}>
         {publicationData.map(({title,authors, publish_date, abstract,link}) =>(
           <Publication title={title} authors={authors} publish_date={publish_date} abstract={abstract} link={link}/>

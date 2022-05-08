@@ -10,6 +10,10 @@ td {
     text-align: left;
 }
 
+tr {
+    height: auto;
+}
+
 tr:hover {
     background-color: salmon;
 }
@@ -18,7 +22,11 @@ tr:hover {
     padding: 30px;
     margin: 40px;
     border: 1px solid white;
+    height: auto;
     border-radius: 5em;
+    white-space: normal;
+    overflow: auto;
+    text-overflow: ellipsis;
 }
 
 .publication-detail h3 {
