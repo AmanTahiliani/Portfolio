@@ -49,6 +49,8 @@
         position: absolute;
         top: 120px;
         bottom: 0px;
+        left: 0px;
+        right: 0px;
     }
     
     hr {
