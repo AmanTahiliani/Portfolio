@@ -1,0 +1,45 @@
+.menu-header {
+    padding-left: 50px;
+    padding-right: 50px;
+    height: "50px";
+    margin-bottom: 40px;
+}
+
+.navRow {
+    height: 100%;
+    margin-top: 40px;
+    line-height: 100%;
+}
+
+.NameCol {
+    font-size: xx-large;
+    font-weight: bold;
+    color: salmon;
+    font-style: italic;
+}
+
+.nonNameCol {
+    font-size: larger;
+    padding-top: 1%;
+    color: aquamarine;
+}
+
+a:link {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+a:visited {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+a:hover {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+a:active {
+    text-decoration: none;
+    color: aquamarine;
+}

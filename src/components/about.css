@@ -1,0 +1,58 @@
+.AboutComponent {
+    background: rgb(2, 182, 182);
+    opacity: 5;
+    width: 75%;
+    margin-top: 80px;
+    margin-left: 12.5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-radius: 6em;
+    border: 2px solid rgba(255, 255, 255, 0.425);
+}
+
+h1 {
+    position: relative;
+}
+
+.NameImage {
+    height: 350px;
+    width: 350px;
+    border-radius: 5.7em;
+    border: 2px solid black;
+}
+
+.InfoColumn h2 {
+    color: rgb(5, 255, 180);
+    font-size: 40px;
+}
+
+.InfoColumn h3 {
+    margin-bottom: 30px;
+    color: rgb(226, 226, 45);
+}
+
+ul {
+    list-style-position: inside;
+}
+
+li {
+    text-align: justify;
+    padding-left: 5%;
+}
+
+.InfoColumn {
+    padding-right: 5%;
+}
+
+li>a {
+    color: hotpink;
+}
+
+.Info {
+    font-size: larger;
+}
+
+.Info li {
+    margin-top: 10px;
+    list-style-type: square;
+}
