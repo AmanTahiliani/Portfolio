@@ -1,13 +1,10 @@
 .AboutComponent {
-    background: rgb(2, 182, 182);
     opacity: 5;
     width: 75%;
     margin-top: 80px;
     margin-left: 12.5%;
     padding-top: 4%;
     padding-bottom: 4%;
-    border-radius: 6em;
-    border: 2px solid rgba(255, 255, 255, 0.425);
 }
 
 h1 {
@@ -28,7 +25,7 @@ h1 {
 
 .InfoColumn h3 {
     margin-bottom: 30px;
-    color: rgb(226, 226, 45);
+    color: salmon;
 }
 
 ul {

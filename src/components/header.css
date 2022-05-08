@@ -24,22 +24,22 @@
     color: aquamarine;
 }
 
-a:link {
+.header a:link {
     text-decoration: none;
     color: aquamarine;
 }
 
-a:visited {
+.header a:visited {
     text-decoration: none;
     color: aquamarine;
 }
 
-a:hover {
+.header a:hover {
     text-decoration: none;
     color: aquamarine;
 }
 
-a:active {
+.header a:active {
     text-decoration: none;
     color: aquamarine;
 }

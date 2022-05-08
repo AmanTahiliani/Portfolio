@@ -1,0 +1,31 @@
+table,
+th,
+td {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: salmon;
+}
+
+.publication-detail {
+    padding: 30px;
+    margin: 40px;
+    border: 1px solid white;
+    border-radius: 5em;
+}
+
+.publication-detail h3 {
+    font-size: xx-large;
+    color: aquamarine;
+}
+
+.publication-detail a {
+    color: aquamarine
+}

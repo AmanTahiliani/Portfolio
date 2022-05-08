@@ -4,7 +4,6 @@
     position: absolute;
     top: 0px;
     right: 0px;
-    bottom: -100px;
     left: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: azure;
@@ -57,4 +56,8 @@ hr {
     margin-left: 15% !important;
     margin-right: 15% !important;
     border: 10px solid aquamarine;
+}
+
+.publications {
+    margin-top: 150px;
 }

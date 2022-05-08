@@ -1,0 +1,22 @@
+[{
+        "title": "Framework for determining the suitability of blockchain: Criteria and issues to consider",
+        "authors": "Vikas Hassija, Sherali Zeadally, Ishan Jain, Aman Tahiliani, Vinay Chamola, Shashank Gupta",
+        "publish_date": "29 July 2021",
+        "abstract": "Various distributed ledger technologies (DLTs), such as blockchain, have evolved significantly in recent years. These technologies provide a robust and effective solution for providing confidentiality, integrity, nonrepudiation, authentication, and transparency. While blockchain has many advantages, it has various limitations as well, such as complexity, low throughput, privacy, and so on. We discuss the issues that must be considered when deciding whether to use these technologies in a given case or not. We describe the operation of blockchain, application areas where blockchain is suitable, and those where it is not. We also discuss the applicability of other emerging DLTs, apart from blockchain technology, such as Hashgraph, Zcash, Nano coin, and IOTA.",
+        "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ett.4334"
+    },
+    {
+        "title": "Privacy-Preserving and Incentivized Contact Tracing for COVID-19 Using Blockchain",
+        "authors": "Naren, Aman Tahiliani, Vikas Hassija, Vinay Chamola, Salil S. Kanhere, Mohsen Guizani",
+        "publish_date": "27 September 2021",
+        "abstract": "Many countries across the world have not been entirely successful in their attempts to contain the spread of the COVID-19 virus, which has caused, quite possibly, one of the greatest disasters of the 21st century. A rich variety of contact tracing applications, each offering its own unique set of features, are currently being used to track the spread of the virus from person to person, and isolate/quarantine suspected individuals. However, existing approaches have not been very successful since they lack incentives to motivate users to use them actively. Although each solution provides some form of privacy protection and data security, loopholes do exist, and there is scope for improvement. In this context, we explore the use of blockchain to help in advancing contact tracing applications. In this article, we describe how blockchain could offer enhanced data security and functionality without compromising users' privacy. The effectiveness of contact tracing applications improves with the user base. In this regard, we explore how blockchain-based smart contracts can be used to offer incentives to users at various stages of the contact tracing process. Next, we lay down a plan for future contact tracing frameworks that provide the advantages of blockchain and user incentives, and all the best features available in current solutions.",
+        "link": "https://ieeexplore.ieee.org/abstract/document/9548968"
+    },
+    {
+        "title": "Machine Unlearning: Its Need and Implementation Strategies",
+        "authors": "Aman Tahiliani, Vikas Hassija, Vinay Chamola, Mohsen Guizani",
+        "publish_date": "05 August 2021",
+        "abstract": "  Generally when users share information about themselves on some online platforms, they knowingly or unknowingly allow this data to be used by the companies behind these companies for various purposes including selling this information to advertisers as well as using it to better enrich their predictive models. In the event of the user changing their minds on allowing such data about them to be able to be used by the companies, it becomes a strenuous task for the companies to get rid of the influence of this collected data, especially when it has been used to train their machine learning models. Recent legislations by governing bodies, like the European Union, grant people the right to choose where data about them may be used, including a right to have their data and its resulting influence be completely removed from a company’s databases and machine learning models. To be able to do this at scale new machine unlearning solutions need to be invented. In this paper, we look at some of these early models of machine unlearning strategies that have been proposed.",
+        "link": "https://dl.acm.org/doi/abs/10.1145/3474124.3474158"
+    }
+]
