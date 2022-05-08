@@ -22,11 +22,13 @@ tr:hover {
     padding: 30px;
     margin: 40px;
     border: 1px solid white;
-    height: auto;
-    border-radius: 5em;
+    border-radius: 2em;
     white-space: normal;
     overflow: auto;
     text-overflow: ellipsis;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .publication-detail h3 {
