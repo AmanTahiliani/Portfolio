@@ -8,26 +8,18 @@ class Publication extends Component {
     return (
       <div className="publication-detail">
           <h3>{this.props.title}</h3>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>Authors</td>
-                        <td>{this.props.authors}</td>
-                    </tr>
-                    <tr>
-                        <td>Publish Date</td>
-                        <td>{this.props.publish_date}</td>
-                    </tr>
-                    <tr>
-                        <td>Abstract</td>
-                        <td>{this.props.abstract}</td>
-                    </tr>
-                    <tr>
-                        <td>Link</td>
-                        <td><a href={this.props.link}>{this.props.link}</a></td>
-                    </tr>
-                </tbody>
-            </table>
+        <Row>
+        <Col>Authors: {this.props.authors}</Col>
+        </Row>
+        <Row>
+        <div>Publish Date: {this.props.publish_date}</div>
+        </Row>
+        <div>Link: <a href={this.props.link}>{this.props.link}</a></div>
+        <br/>
+        <div style={{fontWeight:"bolder"}}>Abstract:</div>
+        <div>{this.props.abstract}</div>
+
+
         </div>
     );
   }
