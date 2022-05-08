@@ -3,7 +3,8 @@ import "bootstrap/dist/css/bootstrap.css";
 import { Grid, Row, Col } from "react-bootstrap";
 import "./about.css";
 import AmanTahilianiPortfolio from "../media/AmanTahilianiPortfolio.png";
-
+import { Button } from "bootstrap";
+import resume from "../media/AmanTahilianiResumeMay22.pdf"
 // const img = '../media/AmanTahilianiPortfolio.png'
 
 class About extends Component {
@@ -38,6 +39,7 @@ class About extends Component {
                 </li>{" "}
               </ul>{" "}
             </Row>{" "}
+              <button style={{borderRadius:"0.8em", width:"auto",height:"40px", fontSize:"larger", backgroundColor:"rgb(5, 255, 180)"}}><a href={resume} style= {{color: "black", textDecoration: "none"}} download="AmanTahilianiResume.pdf">My Resume</a></button>
           </Col>{" "}
         </Row>{" "}
       </div>
