@@ -9,13 +9,13 @@ class ExperienceCard extends Component {
         <div className="experience-detail" style={{marginTop:"30px", marginBottom:"30px"}}>
             <Row>
                 <Col xs={12} md={5} className="Company1">
-                    <h3 className="Company">{this.props.company}</h3>
                     <img src={this.props.photo} className="Company-Image"/>
+                    {/* <h3 className="Company">{this.props.company}</h3> */}
+                    <h4>({this.props.term})</h4>
                 </Col>
                 <Col xs={12} md={7} >
                     <div className="experience-details">
                     <h3 className="JobTitle">{this.props.title}</h3>
-                    <h4>({this.props.term})</h4>
                     <hr/>
                     <div>
                         <ul>

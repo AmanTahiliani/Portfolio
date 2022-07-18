@@ -9,8 +9,11 @@
 
 .Company-Image {
     width: 65%;
-    border: 3px solid hotpink;
+    border: 3px solid #B5EAD7;
     border-radius: 10px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    padding: 20px;
 }
 
 .Company {
@@ -38,6 +41,8 @@ li {
     width: 90%;
     border: 2px solid white;
     border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .JobTitle {

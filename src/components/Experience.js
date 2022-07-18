@@ -5,7 +5,7 @@ import "./experience.css";
 import ExperienceCard from "./experienceCard";
 import experienceData from "./experience.json"
 import InnovaccerLogo from "../media/innovaccerLogo.png";
-import Medsupervision from "../media/Medsupervision.png"
+import Medsupervision from "../media/logo.png"
 
 const logos = {Innovaccer:InnovaccerLogo,Medsupervision:Medsupervision}
 
