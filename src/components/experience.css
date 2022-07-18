@@ -39,14 +39,18 @@ li {
     padding-top: 2%;
     padding-right: 3%;
     width: 90%;
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
+    background-color: aquamarine;
+    color: black;
+    font-size: larger;
+    font-weight: 6-600;
 }
 
 .JobTitle {
-    color: #baffc9;
+    color: rgb(235, 117, 104);
     font-weight: bold;
     font-size: 30px;
 }
