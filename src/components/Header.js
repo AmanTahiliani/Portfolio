@@ -29,13 +29,13 @@ class Header extends Component {
               <Col xs={12} md={5}>
                 <Row className="navRow nonNameCol">
                   <Col>
-                    <a>Experience</a>
+                    <a href="#Experience">Experience</a>
                   </Col>
                   <Col>
                     <a>Devtools</a>
                   </Col>
                   <Col>
-                    <a>Contact Me!</a>
+                    <a href="https://www.linkedin.com/in/amantahiliani/">Contact Me!</a>
                   </Col>
                 </Row>
               </Col>

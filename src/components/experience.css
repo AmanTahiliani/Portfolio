@@ -1,0 +1,47 @@
+.ExperienceComponent {
+    opacity: 5;
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.Company-Image {
+    width: 65%;
+    border: 3px solid hotpink;
+    border-radius: 10px;
+}
+
+.Company {
+    font-size: 50px;
+    font-weight: bold;
+    font-style: normal;
+    color: lightyellow;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+li {
+    list-style-position: outside;
+    margin-bottom: 10px;
+}
+
+.Company1 {
+    margin-bottom: 20px;
+}
+
+.experience-details {
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-right: 3%;
+    width: 90%;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.JobTitle {
+    color: #baffc9;
+    font-weight: bold;
+    font-size: 30px;
+}

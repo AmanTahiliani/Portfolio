@@ -1,0 +1,31 @@
+[{
+        "company": "Innovaccer",
+        "title": "Software Development Engineer Intern (Data Platform)",
+        "points": [
+            "Worked as part of the Data Activation Platform team to create and maintain microservices responsible for parsing and standardizing healthcare data from different sources spanning different data formats such as HL7, CCLF, CCDA etc.",
+            "Developed the Aggregator Metrics microservice to collect metadata of time taken by DAP microservices to process data for each customer and source type and aggregating them into Snowflake tables in order to represent them in graphical manner.",
+            "Created a framework for reporting of success and failure metrics of Merge and Split jobs in EMPI (Enterprise Master Patient Index) service."
+        ],
+        "term": "Feb 2022 - July 2022"
+    },
+    {
+        "company": "Innovaccer",
+        "title": "Summer Intern SDE (Backend- License Management)",
+        "points": [
+            "Created and maintained the backend for two platform level services, License Management and Platform Configuration, as one of three Backend engineers in a team of 9.",
+            "Maintained over 25 API endpoints using Django RestFramework and ported existing MongoDB collections to PostgreSQL.",
+            "Optimized a critical API endpoint by reducing the response time from 16 seconds down to under 3 using Redis Caching and bulk creation/updation."
+        ],
+        "term": "May 2021 - August 2021"
+    },
+    {
+        "company": "Medsupervision",
+        "title": "Web Development Intern",
+        "points": [
+            "Created frontend views and components for the MEDSupervision healthcare platform as per design, using ReactJs framework",
+            "Designed the frontend as well as backend for a Medicine Comparison tool, which suggests alternate medicines containing same or similar salts, using Flask and React.",
+            "Optimized website load times."
+        ],
+        "term": "Oct 2020 - April 2021"
+    }
+]

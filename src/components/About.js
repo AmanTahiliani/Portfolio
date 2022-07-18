@@ -4,8 +4,13 @@ import { Grid, Row, Col } from "react-bootstrap";
 import "./about.css";
 import AmanTahilianiPortfolio from "../media/AmanTahilianiPortfolio.png";
 import { Button } from "bootstrap";
-import resume from "../media/AmanTahilianiResumeMay22.pdf"
+import resume from "../media/AmanTahilianiResume.pdf"
 // const img = '../media/AmanTahilianiPortfolio.png'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faFileDownload } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+library.add(faFileDownload)
 
 class About extends Component {
   render() {
@@ -25,13 +30,12 @@ class About extends Component {
             <Row className="Info">
               <ul>
                 <li>
-                  I am a final Year BTech CSE student at Jaypee Institute of
-                  Information Technology in Noida, India.{" "}
+                  I will be starting a Master's in Computer Science program at Georgia Institute of Technology, Atlanta in Fall 22 with a specialization in Computing Systems. (#GoJackets) {" "}
                 </li>{" "}
                 <li>
-                  Currently working as an SDE Intern(Backend) at{" "}
+                  Worked as an SDE Intern(Backend) at{" "}
                   <a href="https://innovaccer.com/"> Innovaccer </a> as part of
-                  the DAP(Data Activation Platform).{" "}
+                  the DAP(Data Activation Platform) alongside my undergraduate BTech. in Computer Science program at Jaypee Institute of Information Technology.{" "}
                 </li>{" "}
                 <li>
                   I enjoy designing and creating the backend logic for projects
@@ -39,7 +43,7 @@ class About extends Component {
                 </li>{" "}
               </ul>{" "}
             </Row>{" "}
-              <button style={{borderRadius:"0.8em", width:"auto",height:"40px", fontSize:"larger", backgroundColor:"rgb(5, 255, 180)"}}><a href={resume} style= {{color: "black", textDecoration: "none"}} download="AmanTahilianiResume.pdf">My Resume</a></button>
+              <button style={{borderRadius:"0.8em", width:"auto",height:"40px", fontSize:"larger", backgroundColor:"rgb(5, 255, 180)"}}><FontAwesomeIcon icon="file-download"/> <a href={resume} style= {{color: "black", textDecoration:"none"}} download="AmanTahilianiResume.pdf">Resume</a></button>
           </Col>{" "}
         </Row>{" "}
       </div>
