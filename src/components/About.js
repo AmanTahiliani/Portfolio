@@ -34,7 +34,7 @@ class About extends Component {
                 </li>{" "}
                 <li>
                   Worked as an SDE Intern(Backend) at{" "}
-                  <a href="https://innovaccer.com/"> Innovaccer </a> as part of
+                  <a href="https://innovaccer.com/">Innovaccer</a> as part of
                   the DAP(Data Activation Platform) alongside my undergraduate BTech. in Computer Science program at Jaypee Institute of Information Technology.{" "}
                 </li>{" "}
                 <li>
