@@ -30,7 +30,7 @@ class About extends Component {
             <Row className="Info">
               <ul>
                 <li>
-                  I will be starting a Master's in Computer Science program at Georgia Institute of Technology, Atlanta in Fall 22 with a specialization in Computing Systems. (#GoJackets) {" "}
+                 Currently pursuing a Master's degree from Georgia Institute of Technology majoring in Computer Science with a specialization in Computing Systems. (#GoJackets) {" "}
                 </li>{" "}
                 <li>
                   Worked as an SDE Intern(Backend) at{" "}
@@ -43,7 +43,7 @@ class About extends Component {
                 </li>{" "}
               </ul>{" "}
             </Row>{" "}
-              <button style={{borderRadius:"0.8em", width:"auto",height:"40px", fontSize:"larger", backgroundColor:"rgb(5, 255, 180)"}}><FontAwesomeIcon icon="file-download"/> <a href={resume} style= {{color: "black", textDecoration:"none"}} download="AmanTahilianiResume.pdf">Resume</a></button>
+              <button style={{borderRadius:"0.8em", width:"auto",height:"40px", fontSize:"larger", backgroundColor:"rgb(5, 255, 180)"}}><FontAwesomeIcon icon="file-download"/> <a href={resume} style= {{color: "black", textDecoration:"none"}} download="AmanTahilianiPublicationsResume.pdf">Resume</a></button>
           </Col>{" "}
         </Row>{" "}
       </div>
