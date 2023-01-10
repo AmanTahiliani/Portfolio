@@ -6,8 +6,9 @@ import ExperienceCard from "./experienceCard";
 import experienceData from "./experience.json"
 import InnovaccerLogo from "../media/innovaccerLogo.png";
 import Medsupervision from "../media/logo.png"
+import GeorgiaTech from "../media/GeorgiaTech.png"
 
-const logos = {Innovaccer:InnovaccerLogo,Medsupervision:Medsupervision}
+const logos = {Innovaccer:InnovaccerLogo,Medsupervision:Medsupervision,"Georgia Tech":GeorgiaTech}
 
 class Experience extends Component {
     render() {

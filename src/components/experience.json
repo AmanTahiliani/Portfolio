@@ -1,4 +1,14 @@
-[{
+[   {
+        "company": "Georgia Tech",
+        "title": "Graduate Teaching Assistant",
+        "points": [
+            "Working under the guidance of Dr. Jon Duke as a teaching assistant for his course CS-6440 Introduction to Health Informatics in Spring 2023",
+            "Responsibilities include grading of student assignments and examinations for the first half of the semester and mentoring students for their course projects by guiding them on the scope and viability of their project.",
+            "Helping students with their doubts regarding Lab assignments implemented using Java, Python and Docker."
+        ],
+        "term": "Jan 2023 - Present"
+    },
+    {
         "company": "Innovaccer",
         "title": "Software Development Engineer Intern (Data Platform)",
         "points": [

@@ -4,7 +4,7 @@ import { Grid, Row, Col } from "react-bootstrap";
 import "./about.css";
 import AmanTahilianiPortfolio from "../media/AmanTahilianiPortfolio.png";
 import { Button } from "bootstrap";
-import resume from "../media/AmanTahilianiResume.pdf"
+import resume from "../media/AmanTahilianiJan23Resume.pdf"
 // const img = '../media/AmanTahilianiPortfolio.png'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faFileDownload } from '@fortawesome/free-solid-svg-icons'
@@ -43,7 +43,7 @@ class About extends Component {
                 </li>{" "}
               </ul>{" "}
             </Row>{" "}
-              <button style={{borderRadius:"0.8em", width:"auto",height:"40px", fontSize:"larger", backgroundColor:"rgb(5, 255, 180)"}}><FontAwesomeIcon icon="file-download"/> <a href={resume} style= {{color: "black", textDecoration:"none"}} download="AmanTahilianiPublicationsResume.pdf">Resume</a></button>
+              <button style={{borderRadius:"0.8em", width:"auto",height:"40px", fontSize:"larger", backgroundColor:"rgb(5, 255, 180)"}}><FontAwesomeIcon icon="file-download"/> <a href={resume} style= {{color: "black", textDecoration:"none"}} download="AmanTahilianiJan23Resume.pdf">Resume</a></button>
           </Col>{" "}
         </Row>{" "}
       </div>
