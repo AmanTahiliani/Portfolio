@@ -1,14 +1,15 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import { Row, Col} from "react-bootstrap";
+// import { Row, Col} from "react-bootstrap";
 import "./experience.css";
 import ExperienceCard from "./experienceCard";
 import experienceData from "./experience.json"
 import InnovaccerLogo from "../media/innovaccerLogo.png";
 import Medsupervision from "../media/logo.png"
 import GeorgiaTech from "../media/GeorgiaTech.png"
+import Rimidi from "../media/rimidi.png"
 
-const logos = {Innovaccer:InnovaccerLogo,Medsupervision:Medsupervision,"Georgia Tech":GeorgiaTech}
+const logos = {Innovaccer:InnovaccerLogo,Medsupervision:Medsupervision,"Georgia Tech":GeorgiaTech,Rimidi:Rimidi}
 
 class Experience extends Component {
     render() {
