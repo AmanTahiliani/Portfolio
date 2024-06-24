@@ -1,41 +1,41 @@
 table,
 th,
 td {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
 
 th,
 td {
-    padding: 15px;
-    text-align: left;
+  padding: 15px;
+  text-align: left;
 }
 
 tr {
-    height: auto;
+  height: auto;
 }
 
 tr:hover {
-    background-color: salmon;
+  background-color: salmon;
 }
 
 .publication-detail {
-    padding: 30px;
-    margin: 40px;
-    border: 1px solid white;
-    border-radius: 2em;
-    white-space: normal;
-    overflow: auto;
-    text-overflow: ellipsis;
-    text-align: justify;
-    padding-left: 5%;
-    padding-right: 5%;
+  padding: 30px;
+  margin: 40px;
+  border: 1px solid white;
+  border-radius: 2em;
+  white-space: normal;
+  overflow: auto;
+  text-overflow: ellipsis;
+  text-align: justify;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .publication-detail h3 {
-    font-size: xx-large;
-    color: aquamarine;
+  font-size: xx-large;
+  color: aquamarine;
 }
 
 .publication-detail a {
-    color: aquamarine
+  color: aquamarine;
 }

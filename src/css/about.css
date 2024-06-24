@@ -1,54 +1,54 @@
 .AboutComponent {
-    opacity: 5;
-    width: 100%;
-    margin-top: 80px;
-    padding-top: 5.5%;
-    padding-bottom: 4%;
+  opacity: 5;
+  width: 100%;
+  margin-top: 80px;
+  padding-top: 5.5%;
+  padding-bottom: 4%;
 }
 
 h1 {
-    position: relative;
+  position: relative;
 }
 
 .NameImage {
-    height: 350px;
-    width: 350px;
-    border-radius: 5.7em;
-    border: 2px solid black;
+  height: 350px;
+  width: 350px;
+  border-radius: 5.7em;
+  border: 2px solid black;
 }
 
 .InfoColumn h2 {
-    color: rgb(5, 255, 180);
-    font-size: 40px;
+  color: rgb(5, 255, 180);
+  font-size: 40px;
 }
 
 .InfoColumn h3 {
-    margin-bottom: 30px;
-    color: salmon;
+  margin-bottom: 30px;
+  color: salmon;
 }
 
 ul {
-    list-style-position: inside;
+  list-style-position: inside;
 }
 
 li {
-    text-align: justify;
-    padding-left: 5%;
+  text-align: justify;
+  padding-left: 5%;
 }
 
 .InfoColumn {
-    padding-right: 5%;
+  padding-right: 5%;
 }
 
-li>a {
-    color: hotpink;
+li > a {
+  color: hotpink;
 }
 
 .Info {
-    font-size: larger;
+  font-size: larger;
 }
 
 .Info li {
-    margin-top: 10px;
-    list-style-type: square;
+  margin-top: 10px;
+  list-style-type: square;
 }

@@ -31,10 +31,11 @@ class About extends Component {
               <ul>
                 <li>
                   Currently working at <a href="https://rimidi.com/">Rimidi</a>,
-                  a Software as a Service (SaaS) startup, full-time as a Software
-                  Engineer with a special emphasis on data interoperabiltiy and
-                  building a robust set of tools to enable secure flow of
-                  sensitive patient health information across health systems.
+                  a Software as a Service (SaaS) startup, full-time as a
+                  Software Engineer with a special emphasis on data
+                  interoperabiltiy and building a robust set of tools to enable
+                  secure flow of sensitive patient health information across
+                  health systems.
                 </li>
                 <li>
                   Graduated from Georgia Tech in 2024 with a Master's Of Science
@@ -63,7 +64,7 @@ class About extends Component {
                 href={resume}
                 style={{ color: "black", textDecoration: "none" }}
                 download="Aman_Tahiliani_Resume.pdf"
-                >
+              >
                 Resume
               </a>
             </button>

@@ -1,14 +1,14 @@
 [
-    {
-      "name": "Python"
-    },
-    {
-      "name": "Java"
-    },
-    {
-        "name": "C++"
-      },
-      {
-        "name": "JavaScript"
-      }
-  ]
+  {
+    "name": "Python"
+  },
+  {
+    "name": "Java"
+  },
+  {
+    "name": "C++"
+  },
+  {
+    "name": "JavaScript"
+  }
+]

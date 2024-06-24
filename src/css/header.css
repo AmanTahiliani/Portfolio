@@ -1,45 +1,45 @@
 .menu-header {
-    padding-left: 50px;
-    padding-right: 50px;
-    height: "50px";
-    margin-bottom: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: "50px";
+  margin-bottom: 40px;
 }
 
 .navRow {
-    height: 100%;
-    margin-top: 40px;
-    line-height: 100%;
+  height: 100%;
+  margin-top: 40px;
+  line-height: 100%;
 }
 
 .NameCol {
-    font-size: xx-large;
-    font-weight: bold;
-    color: salmon;
-    font-style: italic;
+  font-size: xx-large;
+  font-weight: bold;
+  color: salmon;
+  font-style: italic;
 }
 
 .nonNameCol {
-    font-size: larger;
-    padding-top: 1%;
-    color: aquamarine;
+  font-size: larger;
+  padding-top: 1%;
+  color: aquamarine;
 }
 
 .header a:link {
-    text-decoration: none;
-    color: aquamarine;
+  text-decoration: none;
+  color: aquamarine;
 }
 
 .header a:visited {
-    text-decoration: none;
-    color: aquamarine;
+  text-decoration: none;
+  color: aquamarine;
 }
 
 .header a:hover {
-    text-decoration: none;
-    color: aquamarine;
+  text-decoration: none;
+  color: aquamarine;
 }
 
 .header a:active {
-    text-decoration: none;
-    color: aquamarine;
+  text-decoration: none;
+  color: aquamarine;
 }

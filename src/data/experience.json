@@ -1,61 +1,62 @@
-[   {
+[
+  {
     "company": "Rimidi",
     "title": "Software Engineer",
-    "points":[ 
-        "Building Interoperable Health data parsers in order to be able to ingest health information from any US Electronic Health Record systems and write information back to them.",
-        "Focused on upgrades to the existing Rimidi Infrastructure to aid with efforts towards containerization and integration of cloud-first architecture.",
-        "Owner of the Rimidify (Data interpretation) and EhrMes (Data Writeback) micro-services and domain expert on FHIR and HL7 specs."
+    "points": [
+      "Building Interoperable Health data parsers in order to be able to ingest health information from any US Electronic Health Record systems and write information back to them.",
+      "Focused on upgrades to the existing Rimidi Infrastructure to aid with efforts towards containerization and integration of cloud-first architecture.",
+      "Owner of the Rimidify (Data interpretation) and EhrMes (Data Writeback) micro-services and domain expert on FHIR and HL7 specs."
     ],
     "term": "June 2024 - Present"
-    },
-    {
+  },
+  {
     "company": "Georgia Tech",
     "title": "Graduate Teaching Assistant (CS 6440)",
     "points": [
-        "Working under the guidance of Dr. Jon Duke as a teaching assistant for his course CS-6440 Introduction to Health Informatics in Spring 2023 to mentor students about Healthcare IT, including technologies such as HL7 FHIR. Interoperability, Clinical Decision Support (CDS) and the use of LLMs in healthcare.",
-        "Helped students gain hands on experience with new healthcare technologies such as Hapi FHIR (R4), Mirth Connect, creation of SMART on FHIR applications and more using Python, Java, Docker and Heroku. ",
-        "Responsibilities include grading of student assignments and examinations for the first half of the semester and mentoring students for their course projects by guiding them on the scope and viability of their project."
+      "Working under the guidance of Dr. Jon Duke as a teaching assistant for his course CS-6440 Introduction to Health Informatics in Spring 2023 to mentor students about Healthcare IT, including technologies such as HL7 FHIR. Interoperability, Clinical Decision Support (CDS) and the use of LLMs in healthcare.",
+      "Helped students gain hands on experience with new healthcare technologies such as Hapi FHIR (R4), Mirth Connect, creation of SMART on FHIR applications and more using Python, Java, Docker and Heroku. ",
+      "Responsibilities include grading of student assignments and examinations for the first half of the semester and mentoring students for their course projects by guiding them on the scope and viability of their project."
     ],
     "term": "Jan 2023 - Present"
-    },
-    {
-        "company": "Rimidi",
-        "title": "Software Engineering Intern",
-        "points": [
-            "Spearheaded the creation of a universal data-standardization microservice capable of processing patient health information, including smart-device and lab data from 7 EHRs (including Epic and Cerner) regardless of FHIR API variations (DSTU, STU3, and R4), facilitating a 30% improvement in patient data refresh times compared to the monolith.",
-            "Slashed 3+ hours of integration effort per week through enabling push-pull based tenant mapping sync functionality.",
-            "Championed code cleanliness and maintainability, achieving robust 94% test coverage and logging, guaranteeing efficiency and scalability for future growth"
-        ],
-        "term": "May 2023 - Dec 2023"
-    },
-    {
-        "company": "Innovaccer",
-        "title": "Software Development Engineer Intern (Data Platform)",
-        "points": [
-            "Worked as part of the Data Activation Platform team to create and maintain FHIR enabling microservices responsible for parsing and standardizing healthcare data from different sources spanning different data formats such as HL7, CCLF, CCDA etc.",
-            "Developed the Aggregator Metrics microservice to collect metadata of time taken by DAP microservices to process data for each customer and source type and aggregating them into Snowflake tables in order to represent them in graphical manner.",
-            "Created a framework for reporting of success and failure metrics of Merge and Split jobs in EMPI (Enterprise Master Patient Index) service."
-        ],
-        "term": "Feb 2022 - July 2022"
-    },
-    {
-        "company": "Innovaccer",
-        "title": "Summer Intern SDE (Backend- License Management)",
-        "points": [
-            "Created and maintained the backend for two platform level services, License Management and Platform Configuration, as one of three Backend engineers in a team of 9.",
-            "Maintained over 25 API endpoints using Django RestFramework and ported existing MongoDB collections to PostgreSQL.",
-            "Optimized a critical API endpoint by reducing the response time from 16 seconds down to under 3 using Redis Caching and bulk creation/updation."
-        ],
-        "term": "May 2021 - August 2021"
-    },
-    {
-        "company": "Medsupervision",
-        "title": "Web Development Intern",
-        "points": [
-            "Created frontend views and components for the MEDSupervision healthcare platform as per design, using ReactJs framework",
-            "Designed the frontend as well as backend for a Medicine Comparison tool, which suggests alternate medicines containing same or similar salts, using Flask and React.",
-            "Optimized website load times."
-        ],
-        "term": "Oct 2020 - April 2021"
-    }
+  },
+  {
+    "company": "Rimidi",
+    "title": "Software Engineering Intern",
+    "points": [
+      "Spearheaded the creation of a universal data-standardization microservice capable of processing patient health information, including smart-device and lab data from 7 EHRs (including Epic and Cerner) regardless of FHIR API variations (DSTU, STU3, and R4), facilitating a 30% improvement in patient data refresh times compared to the monolith.",
+      "Slashed 3+ hours of integration effort per week through enabling push-pull based tenant mapping sync functionality.",
+      "Championed code cleanliness and maintainability, achieving robust 94% test coverage and logging, guaranteeing efficiency and scalability for future growth"
+    ],
+    "term": "May 2023 - Dec 2023"
+  },
+  {
+    "company": "Innovaccer",
+    "title": "Software Development Engineer Intern (Data Platform)",
+    "points": [
+      "Worked as part of the Data Activation Platform team to create and maintain FHIR enabling microservices responsible for parsing and standardizing healthcare data from different sources spanning different data formats such as HL7, CCLF, CCDA etc.",
+      "Developed the Aggregator Metrics microservice to collect metadata of time taken by DAP microservices to process data for each customer and source type and aggregating them into Snowflake tables in order to represent them in graphical manner.",
+      "Created a framework for reporting of success and failure metrics of Merge and Split jobs in EMPI (Enterprise Master Patient Index) service."
+    ],
+    "term": "Feb 2022 - July 2022"
+  },
+  {
+    "company": "Innovaccer",
+    "title": "Summer Intern SDE (Backend- License Management)",
+    "points": [
+      "Created and maintained the backend for two platform level services, License Management and Platform Configuration, as one of three Backend engineers in a team of 9.",
+      "Maintained over 25 API endpoints using Django RestFramework and ported existing MongoDB collections to PostgreSQL.",
+      "Optimized a critical API endpoint by reducing the response time from 16 seconds down to under 3 using Redis Caching and bulk creation/updation."
+    ],
+    "term": "May 2021 - August 2021"
+  },
+  {
+    "company": "Medsupervision",
+    "title": "Web Development Intern",
+    "points": [
+      "Created frontend views and components for the MEDSupervision healthcare platform as per design, using ReactJs framework",
+      "Designed the frontend as well as backend for a Medicine Comparison tool, which suggests alternate medicines containing same or similar salts, using Flask and React.",
+      "Optimized website load times."
+    ],
+    "term": "Oct 2020 - April 2021"
+  }
 ]
