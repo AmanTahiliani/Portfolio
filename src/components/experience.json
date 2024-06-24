@@ -1,22 +1,32 @@
 [   {
+    "company": "Rimidi",
+    "title": "Software Engineer",
+    "points":[ 
+        "Building Interoperable Health data parsers in order to be able to ingest health information from any US Electronic Health Record systems and write information back to them.",
+        "Focused on upgrades to the existing Rimidi Infrastructure to aid with efforts towards containerization and integration of cloud-first architecture.",
+        "Owner of the Rimidify (Data interpretation) and EhrMes (Data Writeback) micro-services and domain expert on FHIR and HL7 specs."
+    ],
+    "term": "June 2024 - Present"
+    },
+    {
+    "company": "Georgia Tech",
+    "title": "Graduate Teaching Assistant (CS 6440)",
+    "points": [
+        "Working under the guidance of Dr. Jon Duke as a teaching assistant for his course CS-6440 Introduction to Health Informatics in Spring 2023 to mentor students about Healthcare IT, including technologies such as HL7 FHIR. Interoperability, Clinical Decision Support (CDS) and the use of LLMs in healthcare.",
+        "Helped students gain hands on experience with new healthcare technologies such as Hapi FHIR (R4), Mirth Connect, creation of SMART on FHIR applications and more using Python, Java, Docker and Heroku. ",
+        "Responsibilities include grading of student assignments and examinations for the first half of the semester and mentoring students for their course projects by guiding them on the scope and viability of their project."
+    ],
+    "term": "Jan 2023 - Present"
+    },
+    {
         "company": "Rimidi",
         "title": "Software Engineering Intern",
         "points": [
-            "Developing Rimidify, Rimidi's first micro-service, enabling standardized outputs for FHIR resources from any EHR source or FHIR version. By decoupling resource standardization logic from the core instance, improved flexibility and maintainability were achieved.",
-            "Refactoring the business logic for FHIR standardization, adopting a modular and reusable approach. Reducing redundant code improved scalability and maintainability, making it easier to update and support new FHIR versions and onboard new EHR systems.",
-            "Implementing efficient logic for handling FHIR version additions (DSTU2, STU3 and R4) and EHR integrations (Epic, Cerner, Athena etc.), streamlining the process of onboarding new EHR systems and supporting new FHIR releases. This optimization saved considerable time for the development and QA teams, enhancing productivity and reducing time-to-market for new integrations."
+            "Spearheaded the creation of a universal data-standardization microservice capable of processing patient health information, including smart-device and lab data from 7 EHRs (including Epic and Cerner) regardless of FHIR API variations (DSTU, STU3, and R4), facilitating a 30% improvement in patient data refresh times compared to the monolith.",
+            "Slashed 3+ hours of integration effort per week through enabling push-pull based tenant mapping sync functionality.",
+            "Championed code cleanliness and maintainability, achieving robust 94% test coverage and logging, guaranteeing efficiency and scalability for future growth"
         ],
-        "term": "May 2023 - Present"
-    },
-    {
-        "company": "Georgia Tech",
-        "title": "Graduate Teaching Assistant",
-        "points": [
-            "Working under the guidance of Dr. Jon Duke as a teaching assistant for his course CS-6440 Introduction to Health Informatics in Spring 2023 to mentor students about Healthcare IT, including technologies such as HL7 FHIR. Interoperability, Clinical Decision Support (CDS) and the use of LLMs in healthcare.",
-            "Helped students gain hands on experience with new healthcare technologies such as Hapi FHIR (R4), Mirth Connect, creation of SMART on FHIR applications and more using Python, Java, Docker and Heroku. ",
-            "Responsibilities include grading of student assignments and examinations for the first half of the semester and mentoring students for their course projects by guiding them on the scope and viability of their project."
-        ],
-        "term": "Jan 2023 - Present"
+        "term": "May 2023 - Dec 2023"
     },
     {
         "company": "Innovaccer",

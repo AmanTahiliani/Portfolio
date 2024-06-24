@@ -1,0 +1,44 @@
+input ,textarea {
+    background-color: black;
+    width: 35%;
+    height: 40px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color: white;
+    /* padding-top: 5.5%;
+    padding-bottom: 4%; */
+    padding: auto;
+    padding-left: 15px;
+    border: none;
+    border-bottom: 2px solid aquamarine;
+    font-size: larger;
+}
+input[type=text]:focus {
+    border: none;
+    border-bottom: 3px solid salmon;
+    outline: none;
+}
+.MessageBox{
+    height: auto;
+    display: inline-block;
+    /* text-overflow: ellipsis; */
+
+
+}
+.MessageBox[type=textarea]:focus {
+    border: 3px solid salmon;
+    outline: none;
+
+}
+button{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 2px solid rgb(122, 224, 143);
+    color:darkblue;
+    border-radius: 0.8em ;
+    width: auto;
+    height: 40px;
+    font-size: larger;
+    font-weight:600;
+    background-color: rgb(5, 255, 180);
+}
