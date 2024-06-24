@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import publicationData from "./publications.json"
+import publicationData from "../data/publications.json"
 import Publication  from "./Publication";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";

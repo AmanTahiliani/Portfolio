@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import { Row, Col } from "react-bootstrap";
-import "./header.css";
+import "../css/header.css";
 
 class Header extends Component {
   render() {
@@ -32,10 +32,16 @@ class Header extends Component {
                     <a href="#Experience">Experience</a>
                   </Col>
                   <Col>
-                    <a>Devtools</a>
+                    <a href="#DevTools">Devtools</a>
                   </Col>
                   <Col>
-                    <a href="https://www.linkedin.com/in/amantahiliani/">Contact Me!</a>
+                    <a
+                      href="https://www.linkedin.com/in/amantahiliani/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Contact Me!
+                    </a>
                   </Col>
                 </Row>
               </Col>

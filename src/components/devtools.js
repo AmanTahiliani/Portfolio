@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import PythonLogo from "../media/python-logo.png"
-import JavaLogo from "../media/java-logo.png"
-import CplusLogo from "../media/c++.png"
-import JavaScriptLogo from "../media/JavaScript.webp"
-import './devtools.css'
-import Languages from "./programmingLaguages.json"
+import PythonLogo from "../media/logos/languages/python-logo.png"
+import JavaLogo from "../media/logos/languages/java-logo.png"
+import CplusLogo from "../media/logos/languages/c++.png"
+import JavaScriptLogo from "../media/logos/languages/JavaScript.webp"
+import '../css/devtools.css'
+import Languages from "../data/programmingLaguages.json"
 
 const logos = {
   "Python":PythonLogo,

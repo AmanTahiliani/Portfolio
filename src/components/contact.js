@@ -1,7 +1,7 @@
 import React, { Component, useState } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 // import { Row, Col, TabContainer } from "react-bootstrap";
-import "./contact.css";
+import "../css/contact.css";
 
 
 function Contact () {

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import { Row, Col, TabContainer } from "react-bootstrap";
-import "./publication.css";
+import "../css/publication.css";
 
 class Publication extends Component {
   render() {

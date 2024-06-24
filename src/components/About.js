@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import { Grid, Row, Col } from "react-bootstrap";
-import "./about.css";
+import "../css/about.css";
 import AmanTahilianiPortfolio from "../media/AmanTahilianiPortfolio.png";
 import { Button } from "bootstrap";
 import resume from "../media/Aman_Tahiliani_Resume_June24.pdf";

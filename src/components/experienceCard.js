@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import { Row, Col, TabContainer } from "react-bootstrap";
-import "./experience.css";
+import "../css/experience.css";
 
 class ExperienceCard extends Component {
   render() {
