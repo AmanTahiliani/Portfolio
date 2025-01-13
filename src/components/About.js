@@ -4,7 +4,7 @@ import { Grid, Row, Col } from "react-bootstrap";
 import "../css/about.css";
 import AmanTahilianiPortfolio from "../media/AmanTahilianiPortfolio.png";
 import { Button } from "bootstrap";
-import resume from "../media/Aman_Tahiliani_Resume_June24.pdf";
+import resume from "../media/Aman_Tahiliani_Resume.pdf";
 // const img = '../media/AmanTahilianiPortfolio.png'
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faFileDownload } from "@fortawesome/free-solid-svg-icons";
@@ -58,15 +58,18 @@ class About extends Component {
                 fontSize: "larger",
                 backgroundColor: "rgb(5, 255, 180)",
               }}
+              onClick={() => {
+                const link = document.createElement("a");
+                link.href = resume;
+                link.download = "Aman_Tahiliani_Resume.pdf";
+                link.click();
+                window.open(resume, "_blank");
+              }}
             >
-              <FontAwesomeIcon icon="file-download" />{" "}
-              <a
-                href={resume}
-                style={{ color: "black", textDecoration: "none" }}
-                download="Aman_Tahiliani_Resume.pdf"
-              >
+              <FontAwesomeIcon icon="file-download" style={{color: "black", marginRight: "4px"}} />{" "}
+              <span style={{ color: "black", textDecoration: "none" }}>
                 Resume
-              </a>
+              </span>
             </button>
           </Col>{" "}
         </Row>{" "}

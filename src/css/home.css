@@ -1,0 +1,103 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .intro {
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  
+  .intro h1 {
+    font-size: 3em;
+    color: #333;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .intro p {
+    font-size: 1.5em;
+    color: #666;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .intro nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .intro nav ul li {
+    display: inline;
+    margin: 0 15px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .intro nav ul li a {
+    text-decoration: none;
+    color: #3498db;
+    font-size: 1.2em;
+  }
+  
+  .intro nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Transition animations */
+  .fade-enter {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+  .fade-exit {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .fade-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+  /* Keyframes for animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-20px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  .footer {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #f0f0f0;
+    text-align: center;
+    
+  }
