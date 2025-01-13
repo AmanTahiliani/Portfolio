@@ -1,28 +1,22 @@
 import React, { Component } from "react";
-import PythonLogo from "../media/logos/languages/python-logo.png";
-import JavaLogo from "../media/logos/languages/java-logo.png";
-import CplusLogo from "../media/logos/languages/c++.png";
-import JavaScriptLogo from "../media/logos/languages/JavaScript.webp";
 import "../css/devtools.css";
 import Languages from "../data/programmingLaguages.json";
 
 const logos = {
-  Python: PythonLogo,
-  Java: JavaLogo,
-  "C++": CplusLogo,
-  JavaScript: JavaScriptLogo,
+  Python: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+  Java: "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
+  "C++": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
+  JavaScript: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
 };
 
 class DevToolsComponent extends Component {
   render() {
     return (
       <div>
-        {/* <h2>Programming Languages</h2> */}
         <div className="dev-tools-container">
           {Languages.map(({ name }) => (
-            <div className="dev-tool">
+            <div className="dev-tool" key={name}>
               <img src={logos[name]} alt={name} className="dev-tool-logo" />
-              <h3>{name}</h3>
             </div>
           ))}
         </div>
