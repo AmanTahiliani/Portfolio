@@ -1,0 +1,47 @@
+.social-media {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  
+  .social-media h2 {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .social-media ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-media ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  
+  .social-media ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icon {
+    width: 50px;
+    height: 50px;
+    transition: fill 0.3s ease;
+  }
+  
+  .social-icon.white {
+    filter: invert(1);
+  }
+  
+  .social-media ul li a:hover .social-icon {
+    fill: salmon;
+  }

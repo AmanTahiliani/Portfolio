@@ -36,9 +36,7 @@ class Header extends Component {
                   </Col>
                   <Col>
                     <a
-                      href="https://www.linkedin.com/in/amantahiliani/"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href="#Contact"
                     >
                       Contact Me!
                     </a>
