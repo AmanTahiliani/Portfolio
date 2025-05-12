@@ -21,12 +21,22 @@ function Portfolio() {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
+          const delay = parseInt(entry.target.dataset.delay) || 0;
+          setTimeout(() => {
+            requestAnimationFrame(() => {
+              entry.target.classList.add('visible');
+            });
+          }, delay);
         }
       });
-    }, { threshold: 0.1 });
+    }, { 
+      threshold: 0.15,
+      rootMargin: '50px 0px -100px 0px'
+    });
 
-    document.querySelectorAll('section').forEach((section) => {
+    document.querySelectorAll('section').forEach((section, index) => {
+      // Add staggered delay to each section
+      section.dataset.delay = index * 100;
       observer.observe(section);
     });
 
@@ -44,13 +54,6 @@ function Portfolio() {
       <section>
       <About className="About" id="About" />
       </section>
-      <section className="publications" id="Publications">
-        <h2 className="section-title" style={{ color: "salmon", fontSize: "50px" }}>
-          <b>Publications</b>
-        </h2>
-        <SimpleSlider />
-      </section>
-
       <section className="Experience" id="Experience">
         <h2 className="section-title" style={{ color: "salmon", fontSize: "50px" }}>
           <b>Experience</b>
@@ -62,6 +65,12 @@ function Portfolio() {
           <b>Dev Tools</b>
         </h2>
         <DevToolsComponent />
+      </section>
+      <section className="publications" id="Publications">
+        <h2 className="section-title" style={{ color: "salmon", fontSize: "50px" }}>
+          <b>Publications</b>
+        </h2>
+        <SimpleSlider />
       </section>
       <section className="Contact" id="Contact">
         <h2 className="section-title" style={{ color: "cyan", fontSize: "50px" }}>
