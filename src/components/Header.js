@@ -19,7 +19,7 @@ class Header extends Component {
                     <a href="#About">About</a>
                   </Col>
                   <Col>
-                    <a href="#Publications">Publications</a>
+                    <a href="#Experience">Experience</a>
                   </Col>
                 </Row>
               </Col>
@@ -28,17 +28,18 @@ class Header extends Component {
               </Col>
               <Col xs={12} md={5}>
                 <Row className="navRow nonNameCol">
-                  <Col>
-                    <a href="#Experience">Experience</a>
-                  </Col>
+                  
                   <Col>
                     <a href="#DevTools">Devtools</a>
+                  </Col>
+                  <Col>
+                    <a href="#Publications">Publications</a>
                   </Col>
                   <Col>
                     <a
                       href="#Contact"
                     >
-                      Contact Me!
+                      Social Links
                     </a>
                   </Col>
                 </Row>

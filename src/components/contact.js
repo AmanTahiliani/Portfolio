@@ -1,70 +1,52 @@
-import React, { Component, useState } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-// import { Row, Col, TabContainer } from "react-bootstrap";
+import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
 import "../css/contact.css";
 
 function Contact() {
-  const [name, setName] = useState("");
-  const [organization, setOrganization] = useState("");
-  const [message, setMessage] = useState("");
-  const [popup, setPopup] = useState("");
-
-  let handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      let res = await fetch("http://localhost:8000/sendMail", {
-        method: "POST",
-        body: JSON.stringify({
-          name: name,
-          organization: organization,
-          message: message,
-        }),
-      });
-      // let resJson = await res.json();
-      console.log(res.status);
-      if (res.status === 200) {
-        setName("");
-        setOrganization("");
-        setMessage("");
-        setPopup("Message sent successfully");
-      } else {
-        setPopup("Some error occured");
-      }
-    } catch (err) {
-      console.log(err);
-    }
-  };
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          value={name}
-          placeholder="Name"
-          onChange={(e) => setName(e.target.value)}
-          required="true"
-        />
-        <br />
-        <input
-          type="text"
-          value={organization}
-          placeholder="Organization"
-          onChange={(e) => setOrganization(e.target.value)}
-        />
-        <br />
-        <textarea
-          className="MessageBox"
-          type="textarea"
-          value={message}
-          placeholder="Message"
-          onChange={(e) => setMessage(e.target.value)}
-          required="true"
-        />
-        <br />
-        <button type="submit">Send!</button>
+    <div className="social-links">
+      <a 
+        href="https://github.com/yourusername" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="social-link"
+        aria-label="GitHub Profile"
+      >
+        <FaGithub className="social-icon" />
+        <span className="social-text">GitHub</span>
+      </a>
+      
+      <a 
+        href="https://linkedin.com/in/yourusername" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="social-link"
+        aria-label="LinkedIn Profile"
+      >
+        <FaLinkedin className="social-icon" />
+        <span className="social-text">LinkedIn</span>
+      </a>
 
-        <div className="popup">{popup ? <p>{popup}</p> : null}</div>
-      </form>
+      <a 
+        href="https://instagram.com/yourusername"
+        target="_blank"
+        rel="noopener noreferrer" 
+        className="social-link"
+        aria-label="Instagram Profile"
+      >
+        <FaInstagram className="social-icon" />
+        <span className="social-text">Instagram</span>
+      </a>
+
+      <a 
+        href="mailto:your.email@example.com"
+        className="social-link"
+        aria-label="Email Contact"
+      >
+        <FaEnvelope className="social-icon" />
+        <span className="social-text">Email</span>
+      </a>
     </div>
   );
 }
