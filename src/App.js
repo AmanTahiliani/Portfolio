@@ -5,6 +5,9 @@ import {
   Routes,
   useLocation,
 } from "react-router-dom";
+import { ThemeProvider, useTheme } from './context/ThemeContext';
+import './css/theme.css';
+import ThemeToggle from './components/ThemeToggle';
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import "./App.css";
 import "./css/home.css";
@@ -17,6 +20,8 @@ import DevToolsComponent from "./components/devtools";
 import SocialMedia from "./components/SocialMedia";
 
 function Portfolio() {
+  const { isDarkMode } = useTheme();
+
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
@@ -36,6 +41,7 @@ function Portfolio() {
   return (
     <div className="App">
       <meta name="Aman Tahiliani's Portfolio"></meta>
+      <ThemeToggle />
       <nav>
       <Header />
       </nav>
@@ -88,8 +94,11 @@ function Books() {
 }
 
 function Home() {
+  const { isDarkMode } = useTheme();
+
   return (
     <div className="home">
+      <ThemeToggle />
       <div className="content">
         <div className="intro">
           <h1>Welcome to Aman Tahiliani's Space</h1>
@@ -121,15 +130,17 @@ function Home() {
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/reviews" element={<Books />} />
-        </Routes>
-      </div>
-    </Router>
+    <ThemeProvider>
+      <Router>
+        <div>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/reviews" element={<Books />} />
+          </Routes>
+        </div>
+      </Router>
+    </ThemeProvider>
   );
 }
 export default App;

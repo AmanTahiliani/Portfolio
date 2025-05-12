@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
-    background-color: #f0f0f0;
+    background-color: var(--background-primary);
   }
   
   .content {
@@ -22,13 +22,13 @@
   
   .intro h1 {
     font-size: 3em;
-    color: #333;
+    color: var(--text-primary);
     animation: slideIn 1s ease-in-out;
   }
   
   .intro p {
     font-size: 1.5em;
-    color: #666;
+    color: var(--text-secondary);
     animation: slideIn 1s ease-in-out;
   }
   
@@ -45,7 +45,7 @@
   
   .intro nav ul li a {
     text-decoration: none;
-    color: #3498db;
+    color: var(--link-color);
     font-size: 1.2em;
   }
   
@@ -97,7 +97,6 @@
   .footer {
     width: 100%;
     padding: 20px 0;
-    background-color: #f0f0f0;
+    background-color: var(--background-primary);
     text-align: center;
-    
   }
