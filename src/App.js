@@ -46,14 +46,81 @@ function Portfolio() {
           <b>Dev Tools</b>
         </h2>
         <DevToolsComponent />
-      </div>
-      {/* <div className="Contact" id="Contact">
-      <h2 style={{color:"salmon", fontSize:"50px", marginTop:"60px"}}><b>Contact Me!</b></h2>
-        <Contact/>
-      </div> */}
+      </section>
+      <hr />
+      <section className="publications" id="Publications">
+        <h2 style={{ color: "salmon", fontSize: "50px" }}>
+          <b>Publications</b>
+        </h2>
+        <SimpleSlider />
+      </section>
+      <section className="Contact" id="Contact" style={{ marginTop: "100px" }}>
+        <h2 style={{ color: "cyan", fontSize: "50px" }}>
+          <b>Social Links</b>
+        </h2>
+        <SocialMedia
+          style={{ color: "white" }}
+          useColorIcons={false}
+          whiteIcons={true}
+        />
+      </section>
       </main>
     </div>
   );
 }
 
+function Books() {
+  return (
+    <div>
+      <h2>Books Page</h2>
+      {/* Add your books content here */}
+    </div>
+  );
+}
+
+function Home() {
+  return (
+    <div className="home">
+      <div className="content">
+        <div className="intro">
+          <h1>Welcome to Aman Tahiliani's Space</h1>
+          <p>Software Developer | Tech Enthusiast</p>
+          <nav>
+            <ul>
+              <li>
+                <a href="/portfolio">Developer Portfolio</a>
+              </li>
+              {/* <li>
+                <a href="/reviews">Book, TV and Movie Reviews</a>
+              </li> */}
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div className="footer">
+        <SocialMedia />
+      </div>
+      {/* <div className="Contact" id="Contact">
+      <h2 style={{color:"salmon", fontSize:"50px", marginTop:"60px"}}><b>Contact Me!</b></h2>
+        <Contact/>
+      </div> */}
+    </div>
+
+        
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/reviews" element={<Books />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+}
 export default App;
