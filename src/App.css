@@ -19,7 +19,7 @@ section {
   transform: translate3d(0, 20px, 0);
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
   will-change: opacity, transform;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -95,6 +95,10 @@ hr {
 
 section:hover .section-title {
   transform: translateY(-5px);
+  text-shadow: 0 0 8px rgba(250, 128, 114, 0.6), /* Salmon color glow */
+               0 0 15px rgba(250, 128, 114, 0.4),
+               0 0 20px rgba(250, 128, 114, 0.2);
+  transition: transform 0.4s ease-out, text-shadow 0.4s ease-out;
 }
 
 .slick-dots button:before {
