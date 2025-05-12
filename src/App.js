@@ -17,6 +17,22 @@ import DevToolsComponent from "./components/devtools";
 import SocialMedia from "./components/SocialMedia";
 
 function Portfolio() {
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('section').forEach((section) => {
+      observer.observe(section);
+    });
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <div className="App">
       <meta name="Aman Tahiliani's Portfolio"></meta>
@@ -29,33 +45,26 @@ function Portfolio() {
       <About className="About" id="About" />
       </section>
       <section className="publications" id="Publications">
-        <h2 style={{ color: "salmon", fontSize: "50px" }}>
+        <h2 className="section-title" style={{ color: "salmon", fontSize: "50px" }}>
           <b>Publications</b>
         </h2>
         <SimpleSlider />
       </section>
 
       <section className="Experience" id="Experience">
-        <h2 style={{ color: "salmon", fontSize: "50px", marginTop: "110px" }}>
+        <h2 className="section-title" style={{ color: "salmon", fontSize: "50px" }}>
           <b>Experience</b>
         </h2>
         <Experience />
       </section>
-      <section className="DevTools" id="DevTools" style={{ marginBottom: "100px" }}>
-        <h2 style={{ color: "salmon", fontSize: "50px" }}>
+      <section className="DevTools" id="DevTools">
+        <h2 className="section-title" style={{ color: "salmon", fontSize: "50px" }}>
           <b>Dev Tools</b>
         </h2>
         <DevToolsComponent />
       </section>
-      <hr />
-      <section className="publications" id="Publications">
-        <h2 style={{ color: "salmon", fontSize: "50px" }}>
-          <b>Publications</b>
-        </h2>
-        <SimpleSlider />
-      </section>
-      <section className="Contact" id="Contact" style={{ marginTop: "100px" }}>
-        <h2 style={{ color: "cyan", fontSize: "50px" }}>
+      <section className="Contact" id="Contact">
+        <h2 className="section-title" style={{ color: "cyan", fontSize: "50px" }}>
           <b>Social Links</b>
         </h2>
         <SocialMedia
